@@ -7,14 +7,38 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		051D1CA8210EF2A800412A89 /* Mosaic.cikernel in Resources */ = {isa = PBXBuildFile; fileRef = 056191E3210EEB7F007893A2 /* Mosaic.cikernel */; };
+		0542BE8B210EE175005B69CD /* Pixellate.cikernel in Sources */ = {isa = PBXBuildFile; fileRef = 0542BE8A210EE175005B69CD /* Pixellate.cikernel */; };
+		0542BE8D210EE58B005B69CD /* PixellateFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0542BE8C210EE58B005B69CD /* PixellateFilter.swift */; };
+		0542BE8F210EE5ED005B69CD /* PixellateController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0542BE8E210EE5ED005B69CD /* PixellateController.swift */; };
+		0542BE90210EE850005B69CD /* Pixellate.cikernel in Resources */ = {isa = PBXBuildFile; fileRef = 0542BE8A210EE175005B69CD /* Pixellate.cikernel */; };
+		056191E4210EEB7F007893A2 /* Mosaic.cikernel in Sources */ = {isa = PBXBuildFile; fileRef = 056191E3210EEB7F007893A2 /* Mosaic.cikernel */; };
+		056191E6210EEDF4007893A2 /* MosaicFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 056191E5210EEDF4007893A2 /* MosaicFilter.swift */; };
+		056191E8210EEE41007893A2 /* MosaicController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 056191E7210EEE41007893A2 /* MosaicController.swift */; };
 		05A7438D210B0DA00004B7DD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05A7438C210B0DA00004B7DD /* AppDelegate.swift */; };
 		05A7438F210B0DA00004B7DD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05A7438E210B0DA00004B7DD /* ViewController.swift */; };
 		05A74392210B0DA00004B7DD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 05A74390210B0DA00004B7DD /* Main.storyboard */; };
 		05A74394210B0DA20004B7DD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 05A74393210B0DA20004B7DD /* Assets.xcassets */; };
 		05A74397210B0DA20004B7DD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 05A74395210B0DA20004B7DD /* LaunchScreen.storyboard */; };
+		05A743A3210B12550004B7DD /* MirrorX.cikernel in Sources */ = {isa = PBXBuildFile; fileRef = 05A743A1210B12550004B7DD /* MirrorX.cikernel */; };
+		05A743A5210B13220004B7DD /* MirrorXFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05A743A4210B13220004B7DD /* MirrorXFilter.swift */; };
+		05A743AA210B19580004B7DD /* MirrorImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05A743A9210B19580004B7DD /* MirrorImage.swift */; };
+		05D35D5C210EAFB600B0083E /* MirrorX.cikernel in Resources */ = {isa = PBXBuildFile; fileRef = 05A743A1210B12550004B7DD /* MirrorX.cikernel */; };
+		05D35D5F210EBC1E00B0083E /* Vignette.cikernel in Sources */ = {isa = PBXBuildFile; fileRef = 05D35D5E210EBC1E00B0083E /* Vignette.cikernel */; };
+		05D35D61210EBD4100B0083E /* MainController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05D35D60210EBD4100B0083E /* MainController.swift */; };
+		05D35D63210EBE2100B0083E /* VignetteController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05D35D62210EBE2100B0083E /* VignetteController.swift */; };
+		05D35D65210EBF4E00B0083E /* VignetteFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05D35D64210EBF4E00B0083E /* VignetteFilter.swift */; };
+		05D35D67210EC00800B0083E /* VignetteImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05D35D66210EC00800B0083E /* VignetteImage.swift */; };
+		05D35D68210EC65800B0083E /* Vignette.cikernel in Resources */ = {isa = PBXBuildFile; fileRef = 05D35D5E210EBC1E00B0083E /* Vignette.cikernel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0542BE8A210EE175005B69CD /* Pixellate.cikernel */ = {isa = PBXFileReference; lastKnownFileType = text; path = Pixellate.cikernel; sourceTree = "<group>"; };
+		0542BE8C210EE58B005B69CD /* PixellateFilter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PixellateFilter.swift; sourceTree = "<group>"; };
+		0542BE8E210EE5ED005B69CD /* PixellateController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PixellateController.swift; sourceTree = "<group>"; };
+		056191E3210EEB7F007893A2 /* Mosaic.cikernel */ = {isa = PBXFileReference; lastKnownFileType = text; path = Mosaic.cikernel; sourceTree = "<group>"; };
+		056191E5210EEDF4007893A2 /* MosaicFilter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MosaicFilter.swift; sourceTree = "<group>"; };
+		056191E7210EEE41007893A2 /* MosaicController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MosaicController.swift; sourceTree = "<group>"; };
 		05A74389210B0DA00004B7DD /* CoreImageDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoreImageDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		05A7438C210B0DA00004B7DD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		05A7438E210B0DA00004B7DD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +46,14 @@
 		05A74393210B0DA20004B7DD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		05A74396210B0DA20004B7DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		05A74398210B0DA20004B7DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		05A743A1210B12550004B7DD /* MirrorX.cikernel */ = {isa = PBXFileReference; lastKnownFileType = text; path = MirrorX.cikernel; sourceTree = "<group>"; };
+		05A743A4210B13220004B7DD /* MirrorXFilter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MirrorXFilter.swift; sourceTree = "<group>"; };
+		05A743A9210B19580004B7DD /* MirrorImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MirrorImage.swift; sourceTree = "<group>"; };
+		05D35D5E210EBC1E00B0083E /* Vignette.cikernel */ = {isa = PBXFileReference; lastKnownFileType = text; path = Vignette.cikernel; sourceTree = "<group>"; };
+		05D35D60210EBD4100B0083E /* MainController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainController.swift; sourceTree = "<group>"; };
+		05D35D62210EBE2100B0083E /* VignetteController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VignetteController.swift; sourceTree = "<group>"; };
+		05D35D64210EBF4E00B0083E /* VignetteFilter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VignetteFilter.swift; sourceTree = "<group>"; };
+		05D35D66210EC00800B0083E /* VignetteImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VignetteImage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +67,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0542BE89210EE0D4005B69CD /* Pixellate */ = {
+			isa = PBXGroup;
+			children = (
+				0542BE8A210EE175005B69CD /* Pixellate.cikernel */,
+				0542BE8C210EE58B005B69CD /* PixellateFilter.swift */,
+				0542BE8E210EE5ED005B69CD /* PixellateController.swift */,
+			);
+			path = Pixellate;
+			sourceTree = "<group>";
+		};
 		05A74380210B0DA00004B7DD = {
 			isa = PBXGroup;
 			children = (
@@ -54,14 +96,50 @@
 		05A7438B210B0DA00004B7DD /* CoreImageDemo */ = {
 			isa = PBXGroup;
 			children = (
+				0542BE89210EE0D4005B69CD /* Pixellate */,
+				05D35D5D210EBBFD00B0083E /* Vignette */,
+				05A743A6210B13460004B7DD /* MirrorX */,
+				05A743A0210B11E20004B7DD /* Mosaic */,
 				05A7438C210B0DA00004B7DD /* AppDelegate.swift */,
 				05A7438E210B0DA00004B7DD /* ViewController.swift */,
+				05D35D60210EBD4100B0083E /* MainController.swift */,
 				05A74390210B0DA00004B7DD /* Main.storyboard */,
 				05A74393210B0DA20004B7DD /* Assets.xcassets */,
 				05A74395210B0DA20004B7DD /* LaunchScreen.storyboard */,
 				05A74398210B0DA20004B7DD /* Info.plist */,
 			);
 			path = CoreImageDemo;
+			sourceTree = "<group>";
+		};
+		05A743A0210B11E20004B7DD /* Mosaic */ = {
+			isa = PBXGroup;
+			children = (
+				056191E5210EEDF4007893A2 /* MosaicFilter.swift */,
+				056191E7210EEE41007893A2 /* MosaicController.swift */,
+				056191E3210EEB7F007893A2 /* Mosaic.cikernel */,
+			);
+			path = Mosaic;
+			sourceTree = "<group>";
+		};
+		05A743A6210B13460004B7DD /* MirrorX */ = {
+			isa = PBXGroup;
+			children = (
+				05A743A4210B13220004B7DD /* MirrorXFilter.swift */,
+				05A743A9210B19580004B7DD /* MirrorImage.swift */,
+				05A743A1210B12550004B7DD /* MirrorX.cikernel */,
+			);
+			path = MirrorX;
+			sourceTree = "<group>";
+		};
+		05D35D5D210EBBFD00B0083E /* Vignette */ = {
+			isa = PBXGroup;
+			children = (
+				05D35D64210EBF4E00B0083E /* VignetteFilter.swift */,
+				05D35D66210EC00800B0083E /* VignetteImage.swift */,
+				05D35D62210EBE2100B0083E /* VignetteController.swift */,
+				05D35D5E210EBC1E00B0083E /* Vignette.cikernel */,
+			);
+			path = Vignette;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -96,6 +174,7 @@
 				TargetAttributes = {
 					05A74388210B0DA00004B7DD = {
 						CreatedOnToolsVersion = 10.0;
+						LastSwiftMigration = 1000;
 					};
 				};
 			};
@@ -122,6 +201,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				051D1CA8210EF2A800412A89 /* Mosaic.cikernel in Resources */,
+				0542BE90210EE850005B69CD /* Pixellate.cikernel in Resources */,
+				05D35D68210EC65800B0083E /* Vignette.cikernel in Resources */,
+				05D35D5C210EAFB600B0083E /* MirrorX.cikernel in Resources */,
 				05A74397210B0DA20004B7DD /* LaunchScreen.storyboard in Resources */,
 				05A74394210B0DA20004B7DD /* Assets.xcassets in Resources */,
 				05A74392210B0DA00004B7DD /* Main.storyboard in Resources */,
@@ -135,8 +218,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				05A743AA210B19580004B7DD /* MirrorImage.swift in Sources */,
+				056191E8210EEE41007893A2 /* MosaicController.swift in Sources */,
+				05D35D61210EBD4100B0083E /* MainController.swift in Sources */,
+				056191E6210EEDF4007893A2 /* MosaicFilter.swift in Sources */,
+				0542BE8D210EE58B005B69CD /* PixellateFilter.swift in Sources */,
 				05A7438F210B0DA00004B7DD /* ViewController.swift in Sources */,
+				05D35D67210EC00800B0083E /* VignetteImage.swift in Sources */,
 				05A7438D210B0DA00004B7DD /* AppDelegate.swift in Sources */,
+				0542BE8B210EE175005B69CD /* Pixellate.cikernel in Sources */,
+				05D35D65210EBF4E00B0083E /* VignetteFilter.swift in Sources */,
+				05D35D5F210EBC1E00B0083E /* Vignette.cikernel in Sources */,
+				05D35D63210EBE2100B0083E /* VignetteController.swift in Sources */,
+				0542BE8F210EE5ED005B69CD /* PixellateController.swift in Sources */,
+				05A743A3210B12550004B7DD /* MirrorX.cikernel in Sources */,
+				056191E4210EEB7F007893A2 /* Mosaic.cikernel in Sources */,
+				05A743A5210B13220004B7DD /* MirrorXFilter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,14 +377,18 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q38447SL4M;
 				INFOPLIST_FILE = CoreImageDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = ffib.CoreImageDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -297,8 +398,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q38447SL4M;
 				INFOPLIST_FILE = CoreImageDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

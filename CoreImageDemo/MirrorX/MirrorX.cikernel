@@ -1,0 +1,4 @@
+kernel vec2 mirrorX(float imageWidth) {
+    vec2 currentVec = destCoord();
+    return vec2 ( imageWidth - currentVec.x , currentVec.y ); 
+}

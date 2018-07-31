@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  MirrorController.swift
 //  CoreImageDemo
 //
 //  Created by FFIB on 2018/7/27.
@@ -8,13 +8,15 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class MirrorController: UIViewController {
 
+    @IBOutlet weak var originImageView: UIImageView!
+    @IBOutlet weak var mirrorImageView: UIImageView!
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        let image = UIImage.init(named: "1")
+        originImageView.image = image
+        mirrorImageView.image = image?.mirrorX()
     }
-
-
 }
 
